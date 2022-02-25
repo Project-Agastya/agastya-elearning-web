@@ -1,7 +1,6 @@
 const CONSTANTS = {
-  CONTENT_SERVICE_URL: 'https://agastya-elearning.herokuapp.com/',
-  CONTENT_SERVICE_URL1: 'https://agastya-elearning.herokuapp.com',
-  // CONTENT_SERVICE_URL: 'https://shiksha-content-api.herokuapp.com/',
+  CONTENT_SERVICE_URL: 'http://13.228.114.220:1337/',
+  CONTENT_SERVICE_URL1: 'http://13.228.114.220:1337',
 };
 
 export default CONSTANTS;
