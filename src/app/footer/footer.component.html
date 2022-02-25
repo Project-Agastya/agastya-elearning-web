@@ -4,6 +4,19 @@
 
     <div class="row">
       <div class="col">
+        <span class="col-title">Staff</span>
+        <div class="col-content">
+          <ul class="sites">
+            <li class="site" *ngIf="!(user | async)">
+              <a href="javascript:void(0);" (click)="openLogin()">Login</a>
+            </li>
+            <li class="site" *ngIf="(user | async)">
+              <a href="javascript:void(0);" (click)="logout()">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
         <span class="col-title">Contact Us</span>
         <div class="col-content">
           <div class="contact">

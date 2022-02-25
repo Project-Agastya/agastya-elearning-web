@@ -27,7 +27,7 @@
         </mat-form-field>
         <mat-icon (click)="show($event)" class="mobile-search">search</mat-icon> -->
         <div class="nav-toggle">
-          <mat-icon
+          <!-- <mat-icon
             *ngIf="handSet && !(user | async)"
             (click)="openLogin()"
             class="hamburger-menu"
@@ -41,7 +41,7 @@
             class="hamburger-menu"
           >
             <button mat-stroked-button>Login</button>
-          </div>
+          </div> -->
           <mat-icon
             *ngIf="handSet && (user | async)"
             (click)="logout()"
