@@ -1,6 +1,6 @@
 const CONSTANTS = {
-  CONTENT_SERVICE_URL: 'http://13.228.114.220:1337/',
-  CONTENT_SERVICE_URL1: 'http://13.228.114.220:1337',
+  CONTENT_SERVICE_URL: 'https://www.myagastya.education/api/',
+  CONTENT_SERVICE_URL1: 'https://www.myagastya.education/api',
 };
 
 export default CONSTANTS;
