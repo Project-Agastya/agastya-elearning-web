@@ -129,7 +129,7 @@
                   <img
                     mat-card-image
                     style="height: 100%; width: 100%"
-                    [src]="course.image.formats.thumbnail.url"
+                    [src]="course.image?.formats.thumbnail.url"
                   />
                 </mat-grid-tile>
                 <mat-grid-tile colspan="2">
@@ -170,7 +170,7 @@
             <img
               mat-card-image
               style="height: 100%; width: 100%"
-              [src]="course.image.formats.thumbnail.url"
+              [src]="course.image?.formats.thumbnail.url"
             />
           </mat-grid-tile>
           <mat-grid-tile colspan="2">
